@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar{
+	margin-bottom:0;
+}
+
+a{
+	color:#FFF;
+}
+a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+
+.head_container{
+	height:80%;
+	background-color:#0F0;
+}
+.head_jumbotron{
+	height:670px;
+	
+	text-align:center;
+	background-image:url(/FoodPicker/img/photo-1441986380878-c4248f5b8b5b.jpg);
+}
+.headtitle{
+	margin-top:15%;
+	margin-bottom:5%;
+	
+}
+#SearchBox{
+	width:40%;
+	height:35px;
+}
+.jumbotron h1{
+	color:white;
+	font-weight:700;
+}
+#search-btn{
+	height:35px;
+	width:97px;
+}
+.search-container{
+	padding:2%;
+	background:rgba(0,0,0,0.3);;
+}
+.text-color-white{
+	color:white;
+}

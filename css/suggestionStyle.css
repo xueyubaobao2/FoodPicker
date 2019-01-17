@@ -1,0 +1,40 @@
+
+
+
+/*----------------main Suggestion Search-----------*/
+
+div#mainSearch div#suggestme{
+	position:absolute;
+	z-index:1000;
+	background:white;
+	left:0px;top:33px;
+	overflow:hidden;
+	width:452px;
+	border:1px solid #aaa;
+	display:none;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.296875) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.296875) 0px 2px 2px;
+}
+ul.searchsugg{
+	position:absolute;
+	z-index:1000;
+	margin-left:26%;
+	width:44%;
+	display:block;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.296875) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.296875) 0px 2px 2px;
+	padding:0px;margin-top:0px;
+}
+ul.searchsugg li{
+	text-align:left;
+	background:#FFF; 
+	padding:5px;
+	font-size:15px;
+	color:#575757;
+	cursor:pointer;
+	list-style-type:none;
+	margin:0px;
+}
+ul.searchsugg li:hover{background:#05a6ee;color:white;font-weight:bold;}
+ul.searchsugg li.active{background:#05a6ee;color:white;font-weight:bold;}
+.load{background:url("loader.gif") no-repeat right;}
